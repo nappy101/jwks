@@ -9,3 +9,5 @@ PROJECT 1
 - Only serve keys that have not expired.
 - A /auth endpoint that returns an unexpired, signed JWT on a POST request.
 - If the “expired” query parameter is present, issue a JWT signed with the expired key pair and the expired expiry.
+
+The code is written in Python. Flask and PyJWT are used as well as python's cryptography (pyca/cryptography).

@@ -11,3 +11,7 @@ PROJECT 1
 - If the “expired” query parameter is present, issue a JWT signed with the expired key pair and the expired expiry.
 
 The code is written in Python. Flask and PyJWT are used as well as python's cryptography (pyca/cryptography).
+
+References:
+https://pyjwt.readthedocs.io/en/latest/usage.html
+https://auth0.com/blog/how-to-handle-jwt-in-python/

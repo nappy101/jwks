@@ -15,3 +15,4 @@ The code is written in Python. Flask and PyJWT are used as well as python's cryp
 References:
 https://pyjwt.readthedocs.io/en/latest/usage.html
 https://auth0.com/blog/how-to-handle-jwt-in-python/
+https://jwt.io/

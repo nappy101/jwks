@@ -50,11 +50,11 @@ jwks_dict = {
     ]
 }
 
-# Store the JWK in a list
+# list
 jwks = [jwks_dict["keys"]]
 print(jwks)
 
-# Endpoint to generate JWT
+# JWT endpoint
 @app.route('/auth', methods=['POST'])
 def generate_jwt():
     try:
@@ -83,7 +83,7 @@ def generate_jwt():
         return "Error generating token: ", 500
 
 
-# Endpoint to retrieve JWKs
+# JWKs endpoint
 @app.route('/.well-known/jwks.json', methods=['GET'])
 def get_jwks():
     try:

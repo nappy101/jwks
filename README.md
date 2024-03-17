@@ -1,5 +1,3 @@
-# jwks-server
-
 # PROJECT 1
 1. Key Generation
 - Implement RSA key pair generation.

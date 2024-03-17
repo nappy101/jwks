@@ -19,3 +19,25 @@ https://pyjwt.readthedocs.io/en/latest/usage.html
 https://auth0.com/blog/how-to-handle-jwt-in-python/
 
 https://jwt.io/
+
+PROJECT 2
+This will continue extending the JWKS server created in PROJECT 1.
+
+The goal of this project is to:
+1. Create/Open a SQLite DB file at start
+2. Write the private keys to that file
+3. Modify the POST:/auth and GET:/.well-known/jwks.json endpoints to use the database
+
+POST:/auth will:
+1. read a private key from the database
+   - if expired: read an expired key
+   - if not: read a valid unexpired key
+2. Sign a JWT with the private key and return the JWT
+
+GET:/.well-known/jwks.json will:
+1. Read all valid, non-expired private keys from the database.
+2. Create a JWKS response from those private keys.
+
+References:
+
+https://docs.python.org/3/library/sqlite3.html

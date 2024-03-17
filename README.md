@@ -1,5 +1,6 @@
 # jwks-server
-PROJECT 1
+
+# PROJECT 1
 1. Key Generation
 - Implement RSA key pair generation.
 - Associate a Key ID (kid) and expiry timestamp with each key.
@@ -20,7 +21,7 @@ https://auth0.com/blog/how-to-handle-jwt-in-python/
 
 https://jwt.io/
 
-PROJECT 2
+# PROJECT 2
 This will continue extending the JWKS server created in PROJECT 1.
 
 The goal of this project is to:

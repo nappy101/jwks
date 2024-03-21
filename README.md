@@ -21,7 +21,8 @@ https://auth0.com/blog/how-to-handle-jwt-in-python/
 https://jwt.io/
 
 # PROJECT 2
-main2.py | test2.py | pineda-gradebot2.png
+main2.py | test2.py | pineda-gradebot2.png       
+
 This will continue extending the JWKS server created in PROJECT 1.
 
 The goal of this project is to:

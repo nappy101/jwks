@@ -1,5 +1,5 @@
 # PROJECT 1
-**main.py | test.py | pineda-gradebot.png**
+   **main.py   |  test.py  |  pineda-gradebot.png**
 1. Key Generation
 - Implement RSA key pair generation.
 - Associate a Key ID (kid) and expiry timestamp with each key.
@@ -23,9 +23,9 @@ https://auth0.com/blog/how-to-handle-jwt-in-python/
 https://jwt.io/
 
 # PROJECT 2
-**main2.py | test2.py | pineda-gradebot2.png  **     
+   **main2.py  |  test2.py |  pineda-gradebot2.png**
 
-This will continue extending the JWKS server created in PROJECT 1.
+This will continue extending the JWKS server created in PROJECT 1 with the use of SQLite.
 
 The goal of this project is to:
 1. Create/Open a SQLite DB file at start
@@ -45,9 +45,12 @@ GET:/.well-known/jwks.json will:
 
 - Serve HTTP on port 8080
 
-This project uses the SQLite3 extension. 
 The **test2.py** file tests for both the flask connection as well as the database connection.
 
 References:
 
 https://docs.python.org/3/library/sqlite3.html
+
+https://www.digitalocean.com/community/tutorials/how-to-use-the-sqlite3-module-in-python-3
+
+https://bobbyhadz.com/blog/vscode-view-query-sqlite
